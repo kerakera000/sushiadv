@@ -1,0 +1,91 @@
+@use "../init/index" as *;
+
+.access{
+    width: 100%;
+    position: relative;
+    height: 393px;
+    &::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-image: url(/wp-content/themes/sushi/assets/img/access/sample.png);
+        background-size: cover;
+        filter: grayscale(100%);
+        display: block;
+        position: absolute;
+        left: 0%;
+        bottom: 0;
+    }
+    &__textbox{
+        align-items: flex-start !important;
+        position: relative;
+        height: 393px;
+        &::before {
+            content: '';
+            background: transparent linear-gradient(90deg, #343028 0%, #533C2DDE 89%, #533C2D00 100%) 0% 0% no-repeat padding-box;
+            opacity: 0.59;
+            width: 40%;
+            height: 393px;
+            display: block;
+            position: absolute;
+            top: 0%;
+            z-index: 0;
+            @media screen and (max-width: 1024px) {
+                width: 50%;
+            }
+            @media screen and (max-width: 768px) {
+                width: 70%;
+            }
+            @media screen and (max-width: 425px) {
+                width: 90%;
+            }
+        }
+        .content{
+            height: 393px;
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            padding: 100px 0 0 100px;
+            z-index: 1;
+            position: relative;
+            @media screen and (max-width: 768px) {
+                padding: 80px 0 0 50px;
+            }
+            @media screen and (max-width: 425px) {
+                padding: 70px 0 0 40px;
+            }
+            .title{
+                color: #FFFFFF;
+                @include fo-min;
+                font-weight: 700;
+                font-size: 36px;
+                letter-spacing: 3.6px;
+            }
+            .subtext{
+                color: #FFFFFF;
+                @include fo-min;
+                font-weight: 700;
+                font-size: 12px;
+                letter-spacing: 1.2px;
+                margin-bottom: 40px;
+            }
+            .num{
+                color: #FFFFFF;
+                @include fo-min;
+                font-weight: 600;
+                font-size: 14px;
+                letter-spacing: 1.4px;
+            }
+            .text{
+                color: #FFFFFF;
+                @include fo-min;
+                font-weight: 600;
+                font-size: 14px;
+                letter-spacing: 1.4px;
+            }
+        }
+    }
+}

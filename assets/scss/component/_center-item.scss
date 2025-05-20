@@ -1,0 +1,25 @@
+@use "../init/index" as *;
+
+
+.center-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    &.red-border {
+        &::before{
+            content: '';
+            position: absolute;
+            left: 0%;
+            top: 0%;
+            background-color: #AC2121;
+            width: 15px;
+            height: 100%;
+            @media screen and (max-width: 768px) {
+                width: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,61 @@
+@use "../init/index" as *;
+
+
+.sidebar {
+    position: fixed;
+    bottom: 30px;
+    right: 0%;
+    min-width: 66px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+    z-index: 999;
+    &__linkbox{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 20px;
+        padding: 0 16px;
+        @media screen and (max-width: 425px) {
+            display: none;
+        }
+        .link{
+            width: 18.5px;
+            height: 18.5px;
+            .img{
+                width: 100%;
+                aspect-ratio: 1/1;
+                object-fit: contain;
+            }
+        }
+    }
+    &__buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 23px 24px;
+        background-color: #AC2121;
+        border-radius: 8px 0px 0px 8px;
+        @media screen and (max-width: 425px) {
+            padding: 20px 14px;
+        }
+        .text{
+            @include fo-min;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            font-weight: 700;
+            color: #ffffff;
+            font-size: 16px;
+            letter-spacing: 9px;
+            margin-bottom: 10px;
+            @media screen and (max-width: 425px) {
+                font-size: 14px;
+                letter-spacing: 8px;
+            }
+        }
+    }
+}

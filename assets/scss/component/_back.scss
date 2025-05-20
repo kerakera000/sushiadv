@@ -1,0 +1,55 @@
+@use "../init/index" as *;
+
+.back_img{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    &.kvback{
+        background-image: url(/wp-content/themes/sushi/assets/img/kv/kvback.png);
+        height: 800px;
+        background-repeat: repeat;
+        @media screen and (max-width: 768px) {
+            height: 700px;
+        }
+        @media screen and (max-width: 425px) {
+            height: auto;
+        }
+    }
+    &.menu{
+        background-image: url(/wp-content/themes/sushi/assets/img/top-menu/menu.png);
+        background-size: cover;
+    }
+    &.reserve{
+        background-image: url(/wp-content/themes/sushi/assets/img/top-reserve/reserve.png);
+        background-size: contain;
+        background-repeat: repeat;
+        @media screen and (max-width: 600px) {
+            background-size: cover;
+        }
+    }
+    &.reserve-p{
+        background-image: url(/wp-content/themes/sushi/assets/img/top-reserve/reserve.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 1300px;
+        padding: 0 0 60px;
+        @media screen and (max-width: 600px) {
+            background-size: cover;
+            padding: 0 0 30px;
+        }
+        @media screen and (max-width: 425px) {
+            min-height: 950px;
+        }
+    }
+    &.workshop {
+        background-image: url(/wp-content/themes/sushi/assets/img/top-workshop/GZYE5329.png);
+        height: 520px;
+        background-size: cover;
+        padding-top: 60px;
+    }
+    &.comp{
+        background-image: url(/wp-content/themes/sushi/assets/img/comp/mask.png);
+        background-size: cover;
+        background-repeat: repeat;
+    }
+}
