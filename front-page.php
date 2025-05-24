@@ -238,13 +238,13 @@ get_template_part('./template/head');
 
             <h3 class="top-concept__subtitle">CONCEPT</h3>
 
-            <?php echo '<h2 class="top-concept__title lang-ja" style="display: none;">' . nl2br(esc_html($concept_title_text_ja)) . '</h2>'; ?>
-            <?php echo '<h2 class="top-concept__title lang-en" style="display: none;">' . nl2br(esc_html($concept_title_text_en)) . '</h2>'; ?>
-            <?php echo '<h2 class="top-concept__title lang-cn" style="display: none;">' . nl2br(esc_html($concept_title_text_cn)) . '</h2>'; ?>
-
-            <?php echo '<p class="top-concept__text lang-ja" style="display: none;">' . nl2br(esc_html($concept_text_ja)) . '</p>'; ?>
-            <?php echo '<p class="top-concept__text lang-en" style="display: none;">' . nl2br(esc_html($concept_text_en)) . '</p>'; ?>
-            <?php echo '<p class="top-concept__text lang-cn" style="display: none;">' . nl2br(esc_html($concept_text_cn)) . '</p>'; ?>
+            <h2 class="top-concept__title lang-ja"">
+                仮テキスト
+            </h2>
+            
+            <p class="top-concept__text lang-ja"">
+                仮テキスト
+            </p>
 
             <div class="top-concept__img">
                 <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-concept/concept.png" alt="">
@@ -256,17 +256,20 @@ get_template_part('./template/head');
         <div class="center-item red-border">
             <div class="inner-content top-menu">
                 <div class="top-menu__textbox">
-                    <?php echo '<h2 class="title flexlang-ja" style="display: none;">' . nl2br(esc_html($menu_content1_title_ja)) . '<span class="title__subtext lang-ja" style="display: none;">' . nl2br(esc_html($menu_content1_subtitle_ja)) .'</span>' . '</h2>'; ?>
-                    <?php echo '<h2 class="title flexlang-en" style="display: none;">' . nl2br(esc_html($menu_content1_title_en)) . '<span class="title__subtext lang-en" style="display: none;">' . nl2br(esc_html($menu_content1_subtitle_en)) .'</span>' . '</h2>'; ?>
-                    <?php echo '<h2 class="title flexlang-cn" style="display: none;">' . nl2br(esc_html($menu_content1_title_cn)) . '<span class="title__subtext lang-cn" style="display: none;">' . nl2br(esc_html($menu_content1_subtitle_cn)) .'</span>' . '</h2>'; ?>
+                    <h2 class="title flexlang-ja">
+                        <span class="title__subtext lang-ja">
+                            仮テキスト
+                        </span>
+                    </h2>
 
-                    <?php echo '<h3 class="subtitle lang-ja" style="display: none;">' . nl2br(esc_html($menu_content1_desc_title_ja)) . '</h3>'; ?>
-                    <?php echo '<h3 class="subtitle lang-en" style="display: none;">' . nl2br(esc_html($menu_content1_desc_title_en)) . '</h3>'; ?>
-                    <?php echo '<h3 class="subtitle lang-cn" style="display: none;">' . nl2br(esc_html($menu_content1_desc_title_cn)) . '</h3>'; ?>
-
-                    <?php echo '<p class="maintext lang-ja" style="display: none;">' . nl2br(esc_html($menu_content1_desc_text_ja)) . '</p>'; ?>
-                    <?php echo '<p class="maintext lang-en" style="display: none;">' . nl2br(esc_html($menu_content1_desc_text_en)) . '</p>'; ?>
-                    <?php echo '<p class="maintext lang-cn" style="display: none;">' . nl2br(esc_html($menu_content1_desc_text_cn)) . '</p>'; ?>
+                    <h3 class="subtitle lang-ja">
+                        仮テキスト
+                    </h3>
+                    
+                    <p class="maintext lang-ja">
+                        仮テキスト
+                    </p>
+                    
                 </div>
 
                 <div class="top-menu__imgbox">
@@ -314,25 +317,26 @@ get_template_part('./template/head');
                 </div>
 
                 <div class="top-menuflex__textbox">
-                    <?php echo '<h2 class="title lang-ja" style="display: none;">' . nl2br(esc_html($menu_content2_desc_title_ja)) . '</h2>'; ?>
-                    <?php echo '<h2 class="title lang-en" style="display: none;">' . nl2br(esc_html($menu_content2_desc_title_en)) . '</h2>'; ?>
-                    <?php echo '<h2 class="title lang-cn" style="display: none;">' . nl2br(esc_html($menu_content2_desc_title_cn)) . '</h2>'; ?>
+                    <h2 class="title lang-ja">
+                        仮テキスト
+                    </h2>
                     
-                    <?php echo '<p class="text lang-ja" style="display: none;">' . nl2br(esc_html($menu_content2_desc_text_ja)) . '</p>'; ?>
-                    <?php echo '<p class="text lang-en" style="display: none;">' . nl2br(esc_html($menu_content2_desc_text_en)) . '</p>'; ?>
-                    <?php echo '<p class="text lang-cn" style="display: none;">' . nl2br(esc_html($menu_content2_desc_text_cn)) . '</p>'; ?>
+                    <p class="text lang-ja">
+                        仮テキスト
+                    </p>
+                    
                 </div>
             </div>
 
             <div class="inner-content top-menuflex">
                 <div class="top-menuflex__textbox">
-                    <?php echo '<h2 class="title lang-ja" style="display: none;">' . nl2br(esc_html($menu_content3_desc_title_ja)) . '</h2>'; ?>
-                    <?php echo '<h2 class="title lang-en" style="display: none;">' . nl2br(esc_html($menu_content3_desc_title_en)) . '</h2>'; ?>
-                    <?php echo '<h2 class="title lang-cn" style="display: none;">' . nl2br(esc_html($menu_content3_desc_title_cn)) . '</h2>'; ?>
+                    <h2 class="title lang-ja">
+                        仮テキスト
+                    </h2>
+                    <p class="text lang-ja">
+                        仮テキスト
+                    </p>
                     
-                    <?php echo '<p class="text lang-ja" style="display: none;">' . nl2br(esc_html($menu_content3_desc_text_ja)) . '</p>'; ?>
-                    <?php echo '<p class="text lang-en" style="display: none;">' . nl2br(esc_html($menu_content3_desc_text_en)) . '</p>'; ?>
-                    <?php echo '<p class="text lang-cn" style="display: none;">' . nl2br(esc_html($menu_content3_desc_text_cn)) . '</p>'; ?>
                 </div>
 
                 <div class="top-menuflex__imgbox">
@@ -371,14 +375,14 @@ get_template_part('./template/head');
     <div class="back_img workshop">
         <div class="center-item">
             <div class="inner-content top-workshop">
-                <?php echo '<h2 class="top-workshop__title lang-ja" style="display: none;">' . nl2br(esc_html($cooking_class_title_ja)) . '</h2>'; ?>
-                <?php echo '<h2 class="top-workshop__title lang-en" style="display: none;">' . nl2br(esc_html($cooking_class_title_en)) . '</h2>'; ?>
-                <?php echo '<h2 class="top-workshop__title lang-cn" style="display: none;">' . nl2br(esc_html($cooking_class_title_cn)) . '</h2>'; ?>
-
-                <?php echo '<p class="top-workshop__text lang-ja" style="display: none;">' . nl2br(esc_html($cooking_class_desc_text_ja)) . '</p>'; ?>
-                <?php echo '<p class="top-workshop__text lang-en" style="display: none;">' . nl2br(esc_html($cooking_class_desc_text_en)) . '</p>'; ?>
-                <?php echo '<p class="top-workshop__text lang-cn" style="display: none;">' . nl2br(esc_html($cooking_class_desc_text_cn)) . '</p>'; ?>
-
+                <h2 class="top-workshop__title lang-ja">
+                    仮テキスト
+                </h2>
+        
+                <p class="top-workshop__text lang-ja">
+                    仮テキスト
+                </p>
+                
                 <?php
                 echo '<a href="/restaurant" class="top-workshop__button flexlang-ja" style="display: none;">' . 
                     '詳しく見る' . 
