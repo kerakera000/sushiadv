@@ -123,93 +123,29 @@ get_template_part('./template/head');
         <div class="center-item">
             <div class="inner-content top-kv">
                 <div class="top-kv__navbox">
-                    <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/kv/sushiadv_black.png" alt="">
+                    <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-concept/concept.png" alt="">
 
                     <div class="linkbox">
                         <a class="link" href="/">
                             TOKYO
-                            <span class="subtext lang-ja" style="display: none;">
-                                <?php echo wpautop(esc_html($header_top_text_ja)); ?>
-                            </span>
-                            <span class="subtext lang-en" style="display: none;">
-                                <?php echo wpautop(esc_html($header_top_text_en)); ?>
-                            </span>
-                            <span class="subtext lang-cn" style="display: none;">
-                                <?php echo wpautop(esc_html($header_top_text_cn)); ?>
-                            </span>
                         </a>
                         <a class="link" href="/noto">
                             NOTO
-                            <span class="subtext lang-ja" style="display: none;">
-                                <?php echo wpautop(esc_html($header_workshop_text_ja)); ?>
-                            </span>
-                            <span class="subtext lang-en" style="display: none;">
-                                <?php echo wpautop(esc_html($header_workshop_text_en)); ?>
-                            </span>
-                            <span class="subtext lang-cn" style="display: none;">
-                                <?php echo wpautop(esc_html($header_workshop_text_cn)); ?>
-                            </span>
                         </a>
                         <a class="link" href="/reserve-tokyo">
                             RESERVE
-                            <span class="subtext lang-ja" style="display: none;">
-                                <?php echo wpautop(esc_html($header_reserve_text_ja)); ?>
-                            </span>
-                            <span class="subtext lang-en" style="display: none;">
-                                <?php echo wpautop(esc_html($header_reserve_text_en)); ?>
-                            </span>
-                            <span class="subtext lang-cn" style="display: none;">
-                                <?php echo wpautop(esc_html($header_reserve_text_cn)); ?>
-                            </span>
                         </a>
                         <a class="link" href="/contact">
                             CONTACT
-                            <span class="subtext lang-ja" style="display: none;">
-                                <?php echo wpautop(esc_html($header_inquiry_text_ja)); ?>
-                            </span>
-                            <span class="subtext lang-en" style="display: none;">
-                                <?php echo wpautop(esc_html($header_inquiry_text_en)); ?>
-                            </span>
-                            <span class="subtext lang-cn" style="display: none;">
-                                <?php echo wpautop(esc_html($header_inquiry_text_cn)); ?>
-                            </span>
+                            
                         </a>
-                    </div>
-
-                    <div class="lang-button LANG-BUTTON">
-                        <p class="text">Language</p>
-                        <div class="buttons">
-                            <button class="button" data-lang="jp">
-                                JP
-                                <span class="line"></span>
-                            </button>
-                            <span class="slash">/</span>
-                            <button class="button" data-lang="en">
-                                EN
-                                <span class="line"></span>
-                            </button>
-                            <span class="slash">/</span>
-                            <button class="button" data-lang="ch">
-                                CH
-                                <span class="line"></span>
-                            </button>
-                        </div>
                     </div>
 
                 </div>
 
                 <div class="top-kv__img">
                     <div class="imgbox">
-                        <?php
-                            // kv画像のURLを取得
-                            $kv_image_ja = get_option('kv_image_ja', '');
-
-                            if ($kv_image_ja) {
-                                echo '<img class="img" src="' . esc_url($kv_image_ja) . '" alt="KVイメージ" >';
-                            } else {
-                                echo '<p>画像が設定されていません。</p>';
-                            }
-                        ?>
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-concept/concept.png" alt="KVイメージ" >
                         <h2 class="title lang-ja" style="display: none;">
                             <?php echo nl2br(esc_html($kv_catchphrase_text_ja)); ?>
                         </h2>
@@ -274,28 +210,12 @@ get_template_part('./template/head');
 
                 <div class="top-menu__imgbox">
                     <div class="img1">
-                        <?php
-                            // kv画像のURLを取得
-                            $menu_content1_image1_ja = get_option('menu_content1_image1_ja', '');
-
-                            if ($menu_content1_image1_ja) {
-                                echo '<img class="img" src="' . esc_url($menu_content1_image1_ja) . '" alt="KVイメージ" >';
-                            } else {
-                                echo '<p>画像が設定されていません。</p>';
-                            }
-                        ?>
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-concept/concept.png" alt="KVイメージ" >
+                        
                     </div>
                     <div class="img2">
-                        <?php
-                            // kv画像のURLを取得
-                            $menu_content1_image2_ja = get_option('menu_content1_image2_ja', '');
-
-                            if ($menu_content1_image2_ja) {
-                                echo '<img class="img" src="' . esc_url($menu_content1_image2_ja) . '" alt="KVイメージ" >';
-                            } else {
-                                echo '<p>画像が設定されていません。</p>';
-                            }
-                        ?>
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-concept/concept.png" alt="KVイメージ" >
+                        
                     </div>
                 </div>
             </div>
@@ -303,16 +223,7 @@ get_template_part('./template/head');
             <div class="inner-content top-menuflex">
                 <div class="top-menuflex__imgbox">
                     <div class="imgbox">
-                        <?php
-                            // kv画像のURLを取得
-                            $menu_content2_image_ja = get_option('menu_content2_image_ja', '');
-
-                            if ($menu_content2_image_ja) {
-                                echo '<img class="img" src="' . esc_url($menu_content2_image_ja) . '" alt="KVイメージ" >';
-                            } else {
-                                echo '<p>画像が設定されていません。</p>';
-                            }
-                        ?>
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-concept/concept.png" alt="KVイメージ" >
                     </div>
                 </div>
 
@@ -341,32 +252,14 @@ get_template_part('./template/head');
 
                 <div class="top-menuflex__imgbox">
                     <div class="imgbox">
-                        <?php
-                            // kv画像のURLを取得
-                            $menu_content3_image_ja = get_option('menu_content3_image_ja', '');
-
-                            if ($menu_content3_image_ja) {
-                                echo '<img class="img" src="' . esc_url($menu_content3_image_ja) . '" alt="KVイメージ" >';
-                            } else {
-                                echo '<p>画像が設定されていません。</p>';
-                            }
-                        ?>
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-concept/concept.png" alt="KVイメージ" >
                     </div>
                 </div>
             </div>
 
             <div class="inner-content top-menuimg">
                 <div class="imgbox">
-                    <?php
-                        // kv画像のURLを取得
-                        $menu_content4_image_ja = get_option('menu_content4_image_ja', '');
-
-                        if ($menu_content4_image_ja) {
-                            echo '<img class="img" src="' . esc_url($menu_content4_image_ja) . '" alt="KVイメージ" >';
-                        } else {
-                            echo '<p>画像が設定されていません。</p>';
-                        }
-                    ?>
+                    <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-concept/concept.png" alt="KVイメージ" >
                 </div>
             </div>
         </div>
@@ -382,7 +275,6 @@ get_template_part('./template/head');
                 <p class="top-workshop__text lang-ja">
                     仮テキスト
                 </p>
-                
                 <?php
                 echo '<a href="/restaurant" class="top-workshop__button flexlang-ja" style="display: none;">' . 
                     '詳しく見る' . 
