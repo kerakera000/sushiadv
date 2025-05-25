@@ -23,7 +23,8 @@ global $site_url;
   <link rel="stylesheet" href="<?php echo get_theme_file_uri('assets/css/app.css'); ?>">
   <!-- JS Library -->
   <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
   <script src="<?php echo get_theme_file_uri('/assets/js/action.js'); ?>"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <?php wp_head()?>
