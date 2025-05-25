@@ -146,15 +146,12 @@ get_template_part('./template/head');
                 <div class="top-kv__img">
                     <div class="imgbox">
                         <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs/S__5709826_0_header.jpg" alt="KVイメージ" >
+
                         <h2 class="title lang-ja" style="display: none;">
-                            <?php echo nl2br(esc_html($kv_catchphrase_text_ja)); ?>
+                            仲間と語らう、至福の焼肉時間<br>
+                            能登の瓦×こだわりのホルモン
                         </h2>
-                        <h2 class="title lang-en" style="display: none;">
-                            <?php echo nl2br(esc_html($kv_catchphrase_text_en)); ?>
-                        </h2>
-                        <h2 class="title lang-cn" style="display: none;">
-                            <?php echo nl2br(esc_html($kv_catchphrase_text_cn)); ?>
-                        </h2>
+                        
                     </div>
                 </div>
             </div>
