@@ -145,7 +145,31 @@ get_template_part('./template/head');
 
                 <div class="top-kv__img">
                     <div class="imgbox">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs/S__5709826_0_header.jpg" alt="KVイメージ" >
+                         <!-- Slider main container -->
+                        <div id="new-swiper" class="swiper img">
+                        <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/newimgs/S__5709826_0_header.jpg">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/newimgs/sushi_Grandmenu.jpg">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/newimgs/sushi_nigiri.png">
+                                </div>
+                            </div>
+
+                            <!-- If we need pagination 
+                            <div class="swiper-pagination"></div>
+                            -->
+
+                            <!-- If we need navigation buttons 
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                            -->
+                        </div>
 
                         <h2 class="title lang-ja" style="display: none;">
                             仲間と語らう、至福の焼肉時間<br>
