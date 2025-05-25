@@ -123,7 +123,7 @@ get_template_part('./template/head');
         <div class="center-item">
             <div class="inner-content top-kv">
                 <div class="top-kv__navbox">
-                    <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-concept/concept.png" alt="">
+                    <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs/sushiadv_black_logo.png" alt="">
 
                     <div class="linkbox">
                         <a class="link" href="/">
@@ -145,7 +145,7 @@ get_template_part('./template/head');
 
                 <div class="top-kv__img">
                     <div class="imgbox">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-concept/concept.png" alt="KVイメージ" >
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs/S__5709826_0_header.jpg" alt="KVイメージ" >
                         <h2 class="title lang-ja" style="display: none;">
                             <?php echo nl2br(esc_html($kv_catchphrase_text_ja)); ?>
                         </h2>
@@ -183,7 +183,7 @@ get_template_part('./template/head');
             </p>
 
             <div class="top-concept__img">
-                <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-concept/concept.png" alt="">
+                <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs/sushi_nigiri.png" alt="">
             </div>
         </div>
     </div>
@@ -203,18 +203,15 @@ get_template_part('./template/head');
                     </h3>
                     
                     <p class="maintext lang-ja">
-                        仮テキスト
+                        仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト
                     </p>
                     
                 </div>
 
                 <div class="top-menu__imgbox">
-                    <div class="img1">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-concept/concept.png" alt="KVイメージ" >
-                        
-                    </div>
+                    
                     <div class="img2">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-concept/concept.png" alt="KVイメージ" >
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs/sushi_Grandmenu.jpg" alt="KVイメージ" >
                         
                     </div>
                 </div>
@@ -223,7 +220,7 @@ get_template_part('./template/head');
             <div class="inner-content top-menuflex">
                 <div class="top-menuflex__imgbox">
                     <div class="imgbox">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-concept/concept.png" alt="KVイメージ" >
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs/sushi_kodawari-horumon.jpg" alt="KVイメージ" >
                     </div>
                 </div>
 
@@ -233,7 +230,7 @@ get_template_part('./template/head');
                     </h2>
                     
                     <p class="text lang-ja">
-                        仮テキスト
+                        仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト
                     </p>
                     
                 </div>
@@ -245,21 +242,22 @@ get_template_part('./template/head');
                         仮テキスト
                     </h2>
                     <p class="text lang-ja">
-                        仮テキスト
+                        仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト
+
                     </p>
                     
                 </div>
 
                 <div class="top-menuflex__imgbox">
                     <div class="imgbox">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-concept/concept.png" alt="KVイメージ" >
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs/sushi_tekishita-saki.jpg" alt="KVイメージ" >
                     </div>
                 </div>
             </div>
 
             <div class="inner-content top-menuimg">
                 <div class="imgbox">
-                    <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-concept/concept.png" alt="KVイメージ" >
+                    <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs/sushi_sakes.png" alt="KVイメージ" >
                 </div>
             </div>
         </div>
