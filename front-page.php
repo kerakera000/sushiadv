@@ -18,7 +18,7 @@ get_template_part('./template/head');
                             <div class="swiper-wrapper">
                                 <!-- Slides -->
                                 <div class="swiper-slide">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/newimgs/S__5709826_0_header.jpg">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/newimgs_2/D__02430.jpg">
                                 </div>
                                 <div class="swiper-slide">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/newimgs/sushi_Grandmenu.jpg">
@@ -30,8 +30,9 @@ get_template_part('./template/head');
                         </div>
 
                         <h2 class="title">
-                            タイトルテキストタイトル<br>
-                            タイトルテキストタイトル
+                            大宮駅から徒歩 7分<br>
+                            熟練職人が厳選した旬も<br>
+                            四季折々粋な味を堪能
                         </h2>
                     </div>
                 </div>
@@ -54,48 +55,75 @@ get_template_part('./template/head');
                         </a>
                     </div>
                 </div>
-
+                
             </div>
+                
         </div>
     </div>
 
+
+
     <div class="back_img menu">
         <div class="center-item red-border">
+            <div class="inner-content concept">
+                    <h2 class="top-concept__title lang-ja" style="display: block;">頑張る人に、美味しいエネルギーを！</h2>
+                    <p class="top-concept__text lang-ja" style="display: block;">
+                        復興に向けて全員で進んでおり、その一環として食という娯楽を楽しんでもらいます。<br>
+                        元江戸前鮨職人が心をこめた“おもてなし”を通じて、<br>
+                        こだわりのホルモンと特別な空間で楽しいひとときを味わっていただけます。
+                    </p>
+                    
+                    <div class="imgbox">
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs/sushi_nigiri.png" alt="KVイメージ" >
+                    </div>
+
+            </div>
+
+            <div class="inner-content">
+                <h2 class="top-concept__title lang-ja" style="display: block;">おすすめメニュー</h2>
+            </div>
+
+
             <div class="inner-content top-menu">
+
                 <div class="top-menu__imgbox">
                     
                     <div class="img2">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs/sushi_Grandmenu.jpg" alt="KVイメージ" >
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs_2/D__02487.jpg" alt="KVイメージ" >
                         
                     </div>
                 </div>
                 <div class="top-menu__textbox">
 
                     <h3 class="subtitle">
-                        仮テキスト
+                        小鰭磯辺巻
                     </h3>
                     
                     <p class="maintext">
-                        仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト
+                        酢締めした小鰭ときゅうり、がりを海苔で巻いた逸品
+                        風味、食感が新鮮な味わいを引き出す珍しい酒あて
+                        生わさびを添えて、お召し上がりください。
                     </p>
-                    
                 </div>
+                
             </div>
 
             <div class="inner-content top-menuflex">
                 <div class="top-menuflex__textbox">
                     <h2 class="title">
-                        仮テキスト
+                        鰯へしこ
                     </h2>
                     
                     <p class="text">
-                        仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト
+                        ここでしか食せない珍しい鰯へしこ
+                        鯖で出せない、独特苦味と塩味がお酒をそそる
+                        大将だからできるへしこを堪能ください。
                     </p>
                     
                 </div>
                 <div class="top-menuflex__imgbox">
                     <div class="imgbox">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs/sushi_kodawari-horumon.jpg" alt="KVイメージ" >
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs_2/D__02480.jpg" alt="KVイメージ" >
                     </div>
                 </div>
             </div>
@@ -103,16 +131,17 @@ get_template_part('./template/head');
             <div class="inner-content top-menuflex">
                 <div class="top-menuflex__imgbox">
                     <div class="imgbox">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs/sushi_tekishita-saki.jpg" alt="KVイメージ" >
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs_2/D__02497.jpg" alt="KVイメージ" >
                     </div>
                 </div>
                 <div class="top-menuflex__textbox">
                     <h2 class="title">
-                        仮テキスト
+                        ばくだん納豆
                     </h2>
                     <p class="text">
-                        仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト
-
+                        まぐろ、いか、白身魚、ほか
+                        贅沢にいくらも盛り込んだくだん納豆
+                        パリパリ海苔風味が味を引き立たせます。
                     </p>
                     
                 </div>
