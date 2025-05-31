@@ -2159,7 +2159,7 @@ button.swiper-pagination-bullet {
 }
 
 .footer {
-  background-color: #8a4646;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -2324,7 +2324,7 @@ button.swiper-pagination-bullet {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1.4px;
-  color: #FFF;
+  color: #000000;
 }
 .footer__icons {
   display: flex;
@@ -2364,7 +2364,7 @@ button.swiper-pagination-bullet {
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 1.2px;
-  color: #FFF;
+  color: #000000;
 }
 
 .sidebar {
@@ -2462,7 +2462,7 @@ button.swiper-pagination-bullet {
   }
 }
 .top-kv__navbox .img {
-  width: 151px;
+  width: 231px;
   -o-object-fit: contain;
      object-fit: contain;
 }
