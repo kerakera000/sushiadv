@@ -20,7 +20,7 @@ global $site_url;
 
   <!-- style sheets -->
 
-  <link rel="stylesheet" href="<?php echo get_theme_file_uri('assets/css/app.css'); ?>">
+  <link rel="stylesheet" href="<?php echo get_theme_file_uri('assets/scss/app.css'); ?>">
   <!-- JS Library -->
   <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">

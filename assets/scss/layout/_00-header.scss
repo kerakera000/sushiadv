@@ -105,7 +105,7 @@
         .item{
             display: flex;
             align-items: center;
-            justify-content: flex-start;
+            justify-content: center;
             flex-direction: column;
             @include fo-min;
             font-weight: 900;
@@ -113,7 +113,7 @@
             letter-spacing: 1.6px;
             color: #000000;
             @media screen and (max-width: 1024px) {
-                align-items: flex-start;
+                align-items: center;
                 width: 156px;
             }
             .icon{

@@ -1,7 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
 @forward 'init/init';
-@forward "module/*";
+@forward "module/_action";
+@forward "module/_lightGallery";
+@forward "module/_swiper";
+@forward "module/_modaal";
 
-@forward "component/*";
-@forward "layout/*";
+@forward "component/_back";
+@forward "component/_inner-content";
+@forward "component/_access";
+@forward "component/_center-item";
+
+@forward "layout/_00-header";
+@forward "layout/_00-footer";
+@forward "layout/_00-sidebar";
+@forward "layout/_01-top";
+@forward "layout/_02-workshop";
+@forward "layout/_03-reserve";
+@forward "layout/_04-inquiry";
+@forward "layout/_05-comppage";
+
