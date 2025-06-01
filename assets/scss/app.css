@@ -1719,7 +1719,6 @@ button.swiper-pagination-bullet {
   background-repeat: no-repeat;
   background-image: url(/wp-content/themes/sushiadv/assets/img/access/sample.png);
   background-size: cover;
-  filter: grayscale(100%);
   display: block;
   position: absolute;
   left: 0%;
@@ -2649,6 +2648,7 @@ button.swiper-pagination-bullet {
   font-weight: 500;
   margin-bottom: 20px;
   font-size: 16px;
+  text-align: center;
 }
 .top-concept__img {
   width: 100%;
@@ -2673,7 +2673,7 @@ button.swiper-pagination-bullet {
 }
 
 .top-menu {
-  padding-top: 180px;
+  padding-top: 10px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -2757,7 +2757,7 @@ button.swiper-pagination-bullet {
   }
 }
 .top-menu__imgbox {
-  min-width: 500px;
+  max-width: 520px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -3216,6 +3216,10 @@ button.swiper-pagination-bullet {
 .top-reserve__calendar .img {
   width: 100%;
   height: auto;
+}
+
+.concept {
+  margin: 80px 0 160px;
 }
 
 .p-workshop {

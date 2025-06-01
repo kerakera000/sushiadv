@@ -158,7 +158,7 @@ get_template_part('./template/head');
     <div class="back_img reserve">
         <div class="center-item">
             <div class="inner-content top-insta">
-                <a class="top-insta__itembox" href="https://www.instagram.com/sushi_adventure_tokyo/">
+                <div class="top-insta__itembox">
                     <div class="imgbox">
                         <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336.png" alt="">
                     </div>
@@ -208,9 +208,9 @@ get_template_part('./template/head');
         </div>
     </div>
 
-    <!-- <?php
+    <?php
         get_template_part('./template/access1');
-    ?> -->
+    ?> 
 </main>
 
 <?php
