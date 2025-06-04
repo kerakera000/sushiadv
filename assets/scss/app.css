@@ -2922,6 +2922,14 @@ button.swiper-pagination-bullet {
 .top-menuimg {
   margin-bottom: 100px;
 }
+.top-menuimg .big-title {
+  font-family: "Noto Serif JP", "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 2.4px;
+  margin-bottom: 40px;
+}
 .top-menuimg .imgbox {
   width: 900px;
   height: 320px;
@@ -2942,6 +2950,99 @@ button.swiper-pagination-bullet {
     -o-object-fit: contain;
        object-fit: contain;
   }
+}
+.top-menuimg .accordion {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  align-self: stretch;
+}
+.top-menuimg .accordion .title {
+  font-family: "Noto Serif JP", "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 20px;
+  letter-spacing: 2.4px;
+}
+@media screen and (max-width: 900px) {
+  .top-menuimg .accordion .title {
+    order: 1;
+  }
+}
+.top-menuimg .accordion .sub-title {
+  font-family: "Noto Serif JP", "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 2.4px;
+  padding: 5px 0;
+}
+@media screen and (max-width: 900px) {
+  .top-menuimg .accordion .sub-title {
+    order: 1;
+  }
+}
+.top-menuimg .accordion .text {
+  font-family: "Noto Serif JP", "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-weight: 500;
+  font-size: 19px;
+  color: #333333;
+  line-height: 1.8;
+  letter-spacing: 1.6px;
+}
+@media screen and (max-width: 900px) {
+  .top-menuimg .accordion .text {
+    order: 3;
+  }
+}
+.top-menuimg .accordion__toggle {
+  display: none;
+  width: 100%;
+  max-width: 100%;
+}
+.top-menuimg .accordion__toggle:checked + .accordion__label::before {
+  transform: rotate(-45deg) !important;
+}
+.top-menuimg .accordion__toggle:checked + .accordion__label + .accordion__content {
+  height: auto;
+  padding: 20px;
+  transition: all 0.3s;
+}
+.top-menuimg .accordion__label {
+  padding: 1em;
+  display: block;
+  color: #fff;
+  background: #AC2121;
+  position: relative;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: all 0.3s;
+}
+.top-menuimg .accordion__label::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  position: absolute;
+  top: calc(50% - 3px);
+  right: 20px;
+  transform: rotate(135deg);
+}
+.top-menuimg .accordion__content {
+  height: 0;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: all 0.3s;
+}
+.top-menuimg .accordion__content .content-info {
+  display: flex;
+}
+.top-menuimg .accordion__content .content-info .content-price {
+  margin: 0 0 0 auto;
 }
 
 .top-workshop {
