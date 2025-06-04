@@ -152,6 +152,64 @@ get_template_part('./template/head');
                     <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs/sushi_sakes.png" alt="KVイメージ" >
                 </div>
             </div>
+
+            <div class="inner-content top-menuimg">
+                <section class="accordion">
+                    <input id="block-01" type="checkbox" class="accordion__toggle">
+                    <label class="accordion__label" for="block-01">メニュー見出し1</label>
+                    <div class="accordion__content">
+                        <div class="content-name">
+                            <p>メニュー1-1<br>
+                            メニュー1-2<br>
+                            メニュー1-3
+                            </p>
+                        </div>
+
+                        <div class="content-price">
+                            <p>値段1-1<br>
+                            値段1-2<br>
+                            値段1-3
+                            </p>
+                        </div>
+                    </div>
+
+                    <input id="block-02" type="checkbox" class="accordion__toggle">
+                    <label class="accordion__label" for="block-02">メニュー見出し2</label>
+                    <div class="accordion__content">
+                        <div class="content-name">
+                            <p>メニュー2-1<br>
+                            メニュー2-2<br>
+                            メニュー2-3
+                            </p>
+                        </div>
+
+                        <div class="content-price">
+                            <p>値段2-1<br>
+                            値段2-2<br>
+                            値段2-3
+                            </p>
+                        </div>
+                    </div>
+
+                    <input id="block-03" type="checkbox" class="accordion__toggle">
+                    <label class="accordion__label" for="block-03">メニュー見出し3</label>
+                    <div class="accordion__content">
+                        <div class="content-name">
+                            <p>メニュー3-1<br>
+                            メニュー3-2<br>
+                            メニュー3-3
+                            </p>
+                        </div>
+
+                        <div class="content-price">
+                            <p>値段3-1<br>
+                            値段3-2<br>
+                            値段3-3
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
     </div>
 

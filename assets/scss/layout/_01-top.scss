@@ -443,7 +443,67 @@
             }
         }
     }
+
+    .accordion {
+        width: 100%;
+        align-self: stretch; // flex-item の幅を親に合わせる
+
+        &__toggle {
+            display: none;
+            width: 100%;
+            max-width:  100%;
+
+            &:checked + .accordion__label::before {
+            transform: rotate(-45deg) !important;
+            }
+
+            &:checked + .accordion__label + .accordion__content {
+            height: auto;
+            padding: 20px;
+            transition: all 0.3s;
+            }
+        }
+
+        &__label {
+            padding: 1em;
+            display: block;
+            color: #fff;
+            background: #AC2121;
+            position: relative;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            transform: translateZ(0);
+            transition: all 0.3s;
+
+            &::before {
+            content: "";
+            width: 6px;
+            height: 6px;
+            border-top: 2px solid #fff;
+            border-right: 2px solid #fff;
+            position: absolute;
+            top: calc(50% - 3px);
+            right: 20px;
+            -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+            }
+        }
+
+        &__content {
+            height: 0;
+            margin-bottom: 10px;
+            padding: 0 20px;
+            overflow: hidden;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            transform: translateZ(0);
+            transition: all 0.3s;
+        }
+    }
+    
 }
+
+
 
 .top-workshop{
     width: 100%;

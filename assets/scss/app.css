@@ -2943,6 +2943,53 @@ button.swiper-pagination-bullet {
        object-fit: contain;
   }
 }
+.top-menuimg .accordion {
+  width: 100%;
+  align-self: stretch;
+}
+.top-menuimg .accordion__toggle {
+  display: none;
+  width: 100%;
+  max-width: 100%;
+}
+.top-menuimg .accordion__toggle:checked + .accordion__label::before {
+  transform: rotate(-45deg) !important;
+}
+.top-menuimg .accordion__toggle:checked + .accordion__label + .accordion__content {
+  height: auto;
+  padding: 20px;
+  transition: all 0.3s;
+}
+.top-menuimg .accordion__label {
+  padding: 1em;
+  display: block;
+  color: #fff;
+  background: #AC2121;
+  position: relative;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: all 0.3s;
+}
+.top-menuimg .accordion__label::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  position: absolute;
+  top: calc(50% - 3px);
+  right: 20px;
+  transform: rotate(135deg);
+}
+.top-menuimg .accordion__content {
+  height: 0;
+  margin-bottom: 10px;
+  padding: 0 20px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: all 0.3s;
+}
 
 .top-workshop {
   width: 100%;
