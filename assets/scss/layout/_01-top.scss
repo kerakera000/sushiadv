@@ -202,6 +202,7 @@
         font-weight: 500;
         margin-bottom: 20px;
         font-size: 16px;
+        text-align: center;
     }
     &__img{
         width: 100%;
@@ -222,7 +223,7 @@
 }
 
 .top-menu{
-    padding-top: 180px;
+    padding-top: 10px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -294,7 +295,7 @@
         }
     }
     &__imgbox{
-        min-width: 500px;
+        max-width: 520px;
         display: flex;
         align-items: flex-end;
         justify-content: flex-end;
@@ -426,6 +427,15 @@
 
 .top-menuimg{
     margin-bottom: 100px;
+
+    .big-title{
+        @include fo-min;
+        font-weight: 700;
+        font-size: 24px;
+        color: #000000;
+        letter-spacing: 2.4px;
+        margin-bottom: 40px;
+    }
     .imgbox{
         width: 900px;
         height: 320px;
@@ -442,7 +452,116 @@
             }
         }
     }
+
+    .accordion {
+        width: 100%;
+        max-width: 900px;
+        margin: auto;
+        align-self: stretch; // flex-item の幅を親に合わせる
+
+        .title{
+            @include fo-min;
+            font-weight: 700;
+            color: #FFFFFF;
+            font-size: 20px;
+            letter-spacing: 2.4px;
+            @media screen and (max-width: 900px) {
+                order: 1;
+            }
+        }
+
+        .sub-title{
+            @include fo-min;
+            font-weight: 700;
+            color: #000000;
+            font-size: 20px;
+            letter-spacing: 2.4px;
+            padding: 5px 0;
+            @media screen and (max-width: 900px) {
+                order: 1;
+            }
+        }
+
+        .text{
+            @include fo-min;
+            font-weight: 500;
+            font-size: 19px;
+            color: #333333;
+            line-height: 1.8;
+            letter-spacing: 1.6px;
+
+            @media screen and (max-width: 900px) {
+                order: 3;
+            }
+        }
+
+        &__toggle {
+            display: none;
+            width: 100%;
+            max-width:  100%;
+
+            &:checked + .accordion__label::before {
+            transform: rotate(-45deg) !important;
+            }
+
+            &:checked + .accordion__label + .accordion__content {
+            height: auto;
+            padding: 20px;
+            transition: all 0.3s;
+            }
+        }
+
+        &__label {
+            padding: 1em;
+            display: block;
+            color: #fff;
+            background: #AC2121;
+            position: relative;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            transform: translateZ(0);
+            transition: all 0.3s;
+
+            &::before {
+            content: "";
+            width: 6px;
+            height: 6px;
+            border-top: 2px solid #fff;
+            border-right: 2px solid #fff;
+            position: absolute;
+            top: calc(50% - 3px);
+            right: 20px;
+            -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+            }
+        }
+
+        &__content {
+            height: 0;
+            margin-bottom: 10px;
+            padding: 0 10px;
+            overflow: hidden;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            transform: translateZ(0);
+            transition: all 0.3s;
+            
+
+            .content-info{
+                display: flex;
+
+                .content-price{
+                    margin: 0 0 0 auto;
+                }
+            }
+            
+            
+        }
+    }
+    
 }
+
+
 
 .top-workshop{
     width: 100%;
@@ -677,4 +796,8 @@
             height: auto;
         }
     }
+}
+
+.concept{
+    margin: 80px 0 160px;
 }

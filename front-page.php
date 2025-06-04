@@ -148,9 +148,124 @@ get_template_part('./template/head');
             </div>
 
             <div class="inner-content top-menuimg">
-                <div class="imgbox">
-                    <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs/sushi_sakes.png" alt="KVイメージ" >
+                <div class="top-menuing__textbox">
+                    <h2 class="big-title lang-ja" style="display: block;">
+                        メニュー一覧
+                    </h2>
                 </div>
+
+                <section class="accordion">
+                    <input id="block-01" type="checkbox" class="accordion__toggle">
+                    <label class="accordion__label title" for="block-01">メニュー見出し1</label>
+                    <div class="accordion__content">
+                        <h2 class="content-type sub-title">
+                            メニュー種類1
+                        </h2>
+                        
+                        <div class="content-info">
+                            <div class="content-name">
+                                <p class="text">メニュー1<br>
+                                メニュー2<br>
+                                </p>
+                            </div>
+
+                            <div class="content-price">
+                                <p class="text">値段1<br>
+                                値段2<br>
+                                値段3
+                                </p>
+                            </div>
+                        </div>
+
+                        <h2 class="content-type sub-title">
+                            メニュー種類2
+                        </h2>
+                        <div class="content-info">
+                            <div class="content-name">
+                                <p class="text">メニュー1<br>
+                                メニュー2
+                                </p>
+                            </div>
+                            <div class="content-price">
+                                <p class="text">値段1<br>
+                                値段2
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <input id="block-02" type="checkbox" class="accordion__toggle">
+                    <label class="accordion__label title" for="block-02">メニュー見出し2</label>
+                    <div class="accordion__content">
+                        <h2 class="content-type sub-title">
+                            メニュー種類1
+                        </h2>
+                        <div class="content-info">
+                            <div class="content-name">
+                                <p class="text">メニュー1<br>
+                                メニュー2
+                                </p>
+                            </div>
+                            <div class="content-price">
+                                <p class="text">値段1<br>
+                                値段2
+                                </p>
+                            </div>
+                        </div>
+
+                        <h2 class="content-type sub-title">
+                            メニュー種類2
+                        </h2>
+                        <div class="content-info">
+                            <div class="content-name">
+                                <p class="text">メニュー1<br>
+                                メニュー2
+                                </p>
+                            </div>
+                            <div class="content-price">
+                                <p class="text">値段1<br>
+                                値段2
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <input id="block-03" type="checkbox" class="accordion__toggle">
+                    <label class="accordion__label title" for="block-03">メニュー見出し3</label>
+                    <div class="accordion__content">
+                        <h2 class="content-type sub-title">
+                            メニュー種類1
+                        </h2>                
+                        <div class="content-info">
+                            <div class="content-name">
+                                <p class="text">メニュー1<br>
+                                メニュー2
+                                </p>
+                            </div>
+                            <div class="content-price">
+                                <p class="text">値段1<br>
+                                値段2
+                                </p>
+                            </div>
+                        </div>
+
+                        <h2 class="content-type sub-title">
+                            メニュー種類2
+                        </h2>
+                        <div class="content-info">
+                            <div class="content-name">
+                                <p class="text">メニュー1<br>
+                                メニュー2
+                                </p>
+                            </div>
+                            <div class="content-price">
+                                <p class="text">値段1<br>
+                                値段2
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
     </div>
@@ -158,7 +273,7 @@ get_template_part('./template/head');
     <div class="back_img reserve">
         <div class="center-item">
             <div class="inner-content top-insta">
-                <a class="top-insta__itembox" href="https://www.instagram.com/sushi_adventure_tokyo/">
+                <div class="top-insta__itembox">
                     <div class="imgbox">
                         <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336.png" alt="">
                     </div>
@@ -208,9 +323,9 @@ get_template_part('./template/head');
         </div>
     </div>
 
-    <!-- <?php
+    <?php
         get_template_part('./template/access1');
-    ?> -->
+    ?> 
 </main>
 
 <?php
