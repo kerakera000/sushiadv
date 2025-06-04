@@ -12,4 +12,3 @@ global $site_url;
     </div>
 </div>
 
-<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336-4.png" alt="">
