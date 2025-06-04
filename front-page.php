@@ -148,12 +148,6 @@ get_template_part('./template/head');
             </div>
 
             <div class="inner-content top-menuimg">
-                <div class="imgbox">
-                    <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/newimgs/sushi_sakes.png" alt="KVイメージ" >
-                </div>
-            </div>
-
-            <div class="inner-content top-menuimg">
                 <div class="top-menuing__textbox">
                     <h2 class="big-title lang-ja" style="display: block;">
                         メニュー一覧
@@ -172,7 +166,6 @@ get_template_part('./template/head');
                             <div class="content-name">
                                 <p class="text">メニュー1<br>
                                 メニュー2<br>
-                                メニュー3
                                 </p>
                             </div>
 
