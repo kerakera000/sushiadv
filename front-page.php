@@ -159,29 +159,29 @@ get_template_part('./template/head');
         <div class="center-item">
             <div class="inner-content top-insta">
                 <div class="top-insta__itembox">
-                    <div class="imgbox">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336.png" alt="">
+                    <div class="mdal-imgbox">
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336.png" alt="" data-caption="画像1の詳細がここに入ります。<br>画像1の詳細がここに入ります。<br>画像1の詳細がここに入ります。">
                     </div>
-                    <div class="imgbox">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336-1.png" alt="">
+                    <div class="mdal-imgbox">
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336-1.png" alt="" data-caption="画像2の詳細">
                     </div>
-                    <div class="imgbox">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336-2.png" alt="">
+                    <div class="mdal-imgbox">
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336-2.png" alt="" data-caption="画像3の詳細">
                     </div>
-                    <div class="imgbox">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336-3.png" alt="">
+                    <div class="mdal-imgbox">
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336-3.png" alt="" data-caption="画像4の詳細">
                     </div>
-                    <div class="imgbox sp">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336-4.png" alt="">
+                    <div class="mdal-imgbox">
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336-4.png" alt="" data-caption="画像5の詳細">
                     </div>
-                    <div class="imgbox sp">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336-5.png" alt="">
+                    <div class="mdal-imgbox">
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336-5.png" alt="" data-caption="画像6の詳細">
                     </div>
-                    <div class="imgbox md sp">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336-6.png" alt="">
+                    <div class="mdal-imgbox">
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336-6.png" alt="" data-caption="画像7の詳細">
                     </div>
-                    <div class="imgbox md sp">
-                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336-7.png" alt="">
+                    <div class="mdal-imgbox">
+                        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/top-reserve/TPRE1336-7.png" alt="" data-caption="画像8の詳細">
                     </div>
                 </a>
             </div>
@@ -213,6 +213,11 @@ get_template_part('./template/head');
     ?> 
 </main>
 
+
+<?php get_template_part('template/modal'); ?>
+
 <?php
 get_template_part('./template/footer');
 ?>
+
+
