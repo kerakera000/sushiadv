@@ -45,3 +45,27 @@ document.addEventListener('DOMContentLoaded', () => {
         },
   });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('customModal');
+    const modalImg = document.getElementById('modalImage');
+    const modalCaption = document.getElementById('modalCaption');
+    const modalClose = document.getElementById('modalClose');
+
+    document.querySelectorAll('.mdal-imgbox').forEach((imgbox) => {
+        imgbox.addEventListener('click', () => {
+            const img = imgbox.querySelector('img');
+            modalImg.src = img.src;
+            modalCaption.innerHTML = img.dataset.caption || "画像の詳細がありません";
+            modal.style.display = 'flex';
+        });
+    });
+
+    modalClose.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+
+    modal.querySelector('.img-modal__overlay').addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+});

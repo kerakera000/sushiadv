@@ -3238,41 +3238,41 @@ button.swiper-pagination-bullet {
 .top-insta__itembox:hover {
   opacity: 1;
 }
-.top-insta__itembox .imgbox {
+.top-insta__itembox .mdal-imgbox {
   width: calc(100% / 4 - 30px * (4 - 1) / 4);
   aspect-ratio: 1/1;
   transition: 0.3s;
 }
 @media screen and (max-width: 768px) {
-  .top-insta__itembox .imgbox {
+  .top-insta__itembox .mdal-imgbox {
     width: calc(100% / 3 - 30px * (3 - 1) / 3);
   }
 }
 @media screen and (max-width: 600px) {
-  .top-insta__itembox .imgbox {
+  .top-insta__itembox .mdal-imgbox {
     width: calc(100% / 2 - 30px * (2 - 1) / 2);
   }
 }
 @media screen and (max-width: 425px) {
-  .top-insta__itembox .imgbox {
+  .top-insta__itembox .mdal-imgbox {
     width: calc(100% / 2 - 20px * (2 - 1) / 2);
   }
 }
 @media screen and (max-width: 768px) {
-  .top-insta__itembox .imgbox.md {
+  .top-insta__itembox .mdal-imgbox.md {
     display: none;
   }
 }
 @media screen and (max-width: 600px) {
-  .top-insta__itembox .imgbox.sp {
+  .top-insta__itembox .mdal-imgbox.sp {
     display: none;
   }
 }
-.top-insta__itembox .imgbox:hover {
+.top-insta__itembox .mdal-imgbox:hover {
   opacity: 0.8;
   transition: 0.3s;
 }
-.top-insta__itembox .imgbox .img {
+.top-insta__itembox .mdal-imgbox .img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -3321,6 +3321,69 @@ button.swiper-pagination-bullet {
 
 .concept {
   margin: 80px 0 160px;
+}
+
+.img-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  padding: 40px 10px;
+  text-align: center;
+}
+.img-modal__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.img-modal__content {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.85);
+  background-image: url("../img/top-reserve/reserve.png");
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.img-modal__img {
+  max-width: 100%;
+  max-height: 50vh;
+  margin-bottom: 20px;
+}
+.img-modal__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+}
+.img-modal__caption {
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  line-height: 1.6;
 }
 
 .p-workshop {
