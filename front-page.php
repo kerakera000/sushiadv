@@ -41,17 +41,17 @@ get_template_part('./template/head');
                     <img class="img" src="https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/newimgs/logo_yabuki.png" alt="">
 
                     <div class="linkbox">
-                        <a class="link" href="/">
-                            ジャンプリンク
+                        <a class="link" href="#jumplink_recommended">
+                            おすすめメニュー
                         </a>
-                        <a class="link" href="/noto">
-                            ジャンプリンク
+                        <a class="link" href="#jumplink_all-menu">
+                            メニュー一覧
                         </a>
-                        <a class="link" href="/reserve-tokyo">
-                            ジャンプリンク
+                        <a class="link" href="#jumplink_for-everyone">
+                            ご来店頂く皆様へ
                         </a>
-                        <a class="link" href="/contact">
-                            ジャンプリンク
+                        <a class="link" href="#jumplink_access">
+                            アクセス
                         </a>
                     </div>
                 </div>
@@ -79,7 +79,7 @@ get_template_part('./template/head');
             </div>
 
             <div class="inner-content">
-                <h2 class="top-concept__title lang-ja" style="display: block;">おすすめメニュー</h2>
+                <h2 class="top-concept__title lang-ja" style="display: block;" id="jumplink_recommended">おすすめメニュー</h2>
             </div>
 
 
@@ -148,7 +148,7 @@ get_template_part('./template/head');
 
             <div class="inner-content top-menuimg">
                 <div class="top-menuing__textbox">
-                    <h2 class="big-title lang-ja" style="display: block;">
+                    <h2 class="big-title lang-ja" style="display: block;" id="jumplink_all-menu">
                         メニュー一覧
                     </h2>
                 </div>
@@ -545,7 +545,7 @@ get_template_part('./template/head');
 
     <div class="back_img workshop">
         <div class="center-item">
-            <div class="inner-content top-workshop">
+            <div class="inner-content top-workshop" id="jumplink_for-everyone">
                 <h2 class="top-workshop__title">
                 ご来店頂く皆様へ、今一番の美味しいを知っていただくために
                 </h2>
@@ -568,7 +568,7 @@ get_template_part('./template/head');
     
 <div class="access">
     <div class="access__textbox">
-        <div class="content">
+        <div class="content" id="jumplink_access">
             <h3 class="title">ACCESS</h3>
             <p class="subtext lang-ja">アクセス</p>
 
