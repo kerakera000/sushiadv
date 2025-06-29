@@ -571,8 +571,8 @@ get_template_part('./template/head');
             <div class="content" id="jumplink_access">
                 <h3 class="title">ACCESS</h3>
                 <p class="subtext lang-ja">アクセス</p>
-                <p class="num">〒927-1214</p>
-                <p class="text lang-ja">石川県珠洲市飯田町9-42</p>
+                <p class="num">〒330-0845</p>
+                <p class="text lang-ja">埼玉県さいたま市大宮区仲町１丁目１２５−８ 大谷ビル 202</p>
             </div>
         </div>
     </div> 
