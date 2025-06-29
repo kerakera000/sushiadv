@@ -10,17 +10,17 @@
     </div>
 
     <div class="footer__link-box">
-        <a href="/" class="link">
-            ジャンプリンク
+        <a class="link" href="#jumplink_recommended">
+            おすすめメニュー
         </a>
-        <a href="/noto" class="link">
-            ジャンプリンク
+        <a class="link" href="#jumplink_all-menu">
+            メニュー一覧
         </a>
-        <a href="/reserve-tokyo" class="link">
-            ジャンプリンク
+        <a class="link" href="#jumplink_for-everyone">
+            ご来店頂く皆様へ
         </a>
-        <a href="/contact" class="link">
-            ジャンプリンク
+        <a class="link" href="#jumplink_access">
+            アクセス
         </a>
     </div>
 

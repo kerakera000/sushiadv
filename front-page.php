@@ -566,18 +566,17 @@ get_template_part('./template/head');
     </div>
 
     
-<div class="access">
-    <div class="access__textbox">
-        <div class="content" id="jumplink_access">
-            <h3 class="title">ACCESS</h3>
-            <p class="subtext lang-ja">アクセス</p>
-
-            <p class="num">〒927-1214</p>
-            <p class="text lang-ja">石川県珠洲市飯田町9-42</p>
+    <div class="access">
+        <div class="access__textbox">
+            <div class="content" id="jumplink_access">
+                <h3 class="title">ACCESS</h3>
+                <p class="subtext lang-ja">アクセス</p>
+                <p class="num">〒927-1214</p>
+                <p class="text lang-ja">石川県珠洲市飯田町9-42</p>
+            </div>
         </div>
-    </div>
-</div> 
-</div></main>
+    </div> 
+</main>
 
 
 <?php get_template_part('template/modal'); ?>
