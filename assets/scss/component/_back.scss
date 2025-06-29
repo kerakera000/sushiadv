@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     height: auto;
     &.kvback{
-        background-image: url(/wp-content/themes/sushiadv/assets/img/kv/kvback.png);
+        background-image: url(https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/kv/kvback.png);
         height: 800px;
         background-repeat: repeat;
         @media screen and (max-width: 768px) {
@@ -16,11 +16,12 @@
         }
     }
     &.menu{
-        background-image: url(/wp-content/themes/sushiadv/assets/img/top-menu/menu.png);
-        background-size: cover;
+        background-image: url(https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/top-menu/menu.png);
+        background-size: 100%;
+        background-repeat: repeat;
     }
     &.reserve{
-        background-image: url(/wp-content/themes/sushiadv/assets/img/top-reserve/reserve.png);
+        background-image: url(https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/top-reserve/reserve.png);
         background-size: contain;
         background-repeat: repeat;
         @media screen and (max-width: 600px) {
@@ -28,7 +29,7 @@
         }
     }
     &.reserve-p{
-        background-image: url(/wp-content/themes/sushiadv/assets/img/top-reserve/reserve.png);
+        background-image: url(https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/top-reserve/reserve.png);
         background-size: cover;
         background-repeat: no-repeat;
         min-height: 1300px;
@@ -42,13 +43,13 @@
         }
     }
     &.workshop {
-        background-image: url(/wp-content/themes/sushiadv/assets/img/top-workshop/GZYE5329.png);
+        background-image: url(https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/top-workshop/GZYE5329.png);
         height: 520px;
         background-size: cover;
         padding-top: 60px;
     }
     &.comp{
-        background-image: url(/wp-content/themes/sushiadv/assets/img/comp/mask.png);
+        background-image: url(https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/comp/mask.png);
         background-size: cover;
         background-repeat: repeat;
     }

@@ -1627,7 +1627,7 @@ button.swiper-pagination-bullet {
   height: auto;
 }
 .back_img.kvback {
-  background-image: url(/wp-content/themes/sushiadv/assets/img/kv/kvback.png);
+  background-image: url(https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/kv/kvback.png);
   height: 800px;
   background-repeat: repeat;
 }
@@ -1642,11 +1642,12 @@ button.swiper-pagination-bullet {
   }
 }
 .back_img.menu {
-  background-image: url(/wp-content/themes/sushiadv/assets/img/top-menu/menu.png);
-  background-size: cover;
+  background-image: url(https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/top-menu/menu.png);
+  background-size: 100%;
+  background-repeat: repeat;
 }
 .back_img.reserve {
-  background-image: url(/wp-content/themes/sushiadv/assets/img/top-reserve/reserve.png);
+  background-image: url(https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/top-reserve/reserve.png);
   background-size: contain;
   background-repeat: repeat;
 }
@@ -1656,7 +1657,7 @@ button.swiper-pagination-bullet {
   }
 }
 .back_img.reserve-p {
-  background-image: url(/wp-content/themes/sushiadv/assets/img/top-reserve/reserve.png);
+  background-image: url(https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/top-reserve/reserve.png);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 1300px;
@@ -1674,13 +1675,13 @@ button.swiper-pagination-bullet {
   }
 }
 .back_img.workshop {
-  background-image: url(/wp-content/themes/sushiadv/assets/img/top-workshop/GZYE5329.png);
+  background-image: url(https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/top-workshop/GZYE5329.png);
   height: 520px;
   background-size: cover;
   padding-top: 60px;
 }
 .back_img.comp {
-  background-image: url(/wp-content/themes/sushiadv/assets/img/comp/mask.png);
+  background-image: url(https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/comp/mask.png);
   background-size: cover;
   background-repeat: repeat;
 }
@@ -1717,7 +1718,7 @@ button.swiper-pagination-bullet {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-image: url(/wp-content/themes/sushiadv/assets/img/access/sample.png);
+  background-image: url(https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/access/yabuki-map.png);
   background-size: cover;
   display: block;
   position: absolute;
@@ -2461,7 +2462,7 @@ button.swiper-pagination-bullet {
   }
 }
 .top-kv__navbox .img {
-  width: 231px;
+  width: 285px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -2554,6 +2555,7 @@ button.swiper-pagination-bullet {
 .top-kv__img {
   width: 100%;
   height: 621px;
+  max-width: 855px;
 }
 .top-kv__img .imgbox {
   width: 100%;
@@ -2594,6 +2596,7 @@ button.swiper-pagination-bullet {
 .top-kv__img .imgbox .swiper .swiper-wrapper .swiper-slide img {
   width: 100%;
   height: 621px;
+  max-width: 855px;
   -o-object-fit: cover;
      object-fit: cover;
 }
