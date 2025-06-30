@@ -482,6 +482,7 @@
             padding: 5px 0;
             @media screen and (max-width: 900px) {
                 order: 1;
+                font-size: 16px;
             }
         }
 
@@ -495,6 +496,7 @@
 
             @media screen and (max-width: 900px) {
                 order: 3;
+                font-size: 14px;
             }
         }
 
@@ -509,7 +511,7 @@
 
             &:checked + .accordion__label + .accordion__content {
             height: auto;
-            padding: 20px;
+            padding: 20px 5px;
             transition: all 0.3s;
             }
         }
@@ -552,7 +554,6 @@
 
             .content-info{
                 display: flex;
-
                 .content-price{
                     margin: 0 0 0 auto;
                 }

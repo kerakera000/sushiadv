@@ -47,6 +47,12 @@
         height: 520px;
         background-size: cover;
         padding-top: 60px;
+        @media screen and (max-width: 900px) {
+            height: 600px;
+        }
+        @media screen and (max-width: 500px) {
+            height: 700px;
+        }
     }
     &.comp{
         background-image: url(https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/comp/mask.png);

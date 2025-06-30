@@ -1,5 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
+    // nav-buttonクリック時にheaderにopenクラスを追加/削除
+    const navButton = document.querySelector('.nav-button');
+    const header = document.querySelector('.header');
     
+    if (navButton && header) {
+        navButton.addEventListener('click', function() {
+            header.classList.toggle('active');
+            navButton.classList.toggle('active');
+        });
+    }
 });
 
 document.addEventListener('DOMContentLoaded', () => {

@@ -26,17 +26,17 @@ $header_inquiry_text_cn = get_option('header_inquiry_text_cn', '');
     </div>
 
     <div class="header__nav">
-        <a href="/" class="item">
-        ジャンプリンク
+        <a class="link" href="#jumplink_recommended">
+            おすすめメニュー
         </a>
-        <a href="/noto" class="item">
-        ジャンプリンク
+        <a class="link" href="#jumplink_all-menu">
+            メニュー一覧
         </a>
-        <a href="/reserve-tokyo" class="item">
-        ジャンプリンク
+        <a class="link" href="#jumplink_for-everyone">
+            ご来店頂く皆様へ
         </a>
-        <a href="/contact" class="item">
-        ジャンプリンク
+        <a class="link" href="#jumplink_access">
+            アクセス
         </a>
     </div>
 </header>

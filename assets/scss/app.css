@@ -1680,6 +1680,16 @@ button.swiper-pagination-bullet {
   background-size: cover;
   padding-top: 60px;
 }
+@media screen and (max-width: 900px) {
+  .back_img.workshop {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .back_img.workshop {
+    height: 700px;
+  }
+}
 .back_img.comp {
   background-image: url(https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/comp/mask.png);
   background-size: cover;
@@ -2205,7 +2215,7 @@ button.swiper-pagination-bullet {
 }
 @media screen and (max-width: 768px) {
   .footer__contactbox .logo {
-    width: 100%;
+    width: 300px;
   }
 }
 .footer__contactbox .logo .img {
@@ -2230,7 +2240,6 @@ button.swiper-pagination-bullet {
     display: block;
     -o-object-fit: contain;
        object-fit: contain;
-    scale: 1.7;
   }
 }
 .footer__contactbox .contact {
@@ -2311,12 +2320,15 @@ button.swiper-pagination-bullet {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 35px;
   margin-bottom: 35px;
 }
 @media screen and (max-width: 500px) {
   .footer__link-box {
     width: 100%;
+    align-items: flex-start;
+    gap: 10px 20px;
   }
 }
 .footer__link-box .link {
@@ -2983,6 +2995,7 @@ button.swiper-pagination-bullet {
 @media screen and (max-width: 900px) {
   .top-menuimg .accordion .sub-title {
     order: 1;
+    font-size: 16px;
   }
 }
 .top-menuimg .accordion .text {
@@ -2996,6 +3009,7 @@ button.swiper-pagination-bullet {
 @media screen and (max-width: 900px) {
   .top-menuimg .accordion .text {
     order: 3;
+    font-size: 14px;
   }
 }
 .top-menuimg .accordion__toggle {
@@ -3008,7 +3022,7 @@ button.swiper-pagination-bullet {
 }
 .top-menuimg .accordion__toggle:checked + .accordion__label + .accordion__content {
   height: auto;
-  padding: 20px;
+  padding: 20px 5px;
   transition: all 0.3s;
 }
 .top-menuimg .accordion__label {

@@ -34,7 +34,7 @@
                 width: 300px;
             }
             @media screen and (max-width: 768px) {
-                width: 100%;
+                width: 300px;
             }
             .img{
                 width: 100%;
@@ -52,7 +52,6 @@
                     height: 100%;
                     display: block;
                     object-fit: contain;
-                    scale: 1.7;
                 }
             }
         }
@@ -123,10 +122,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 35px;
         margin-bottom: 35px;
         @media screen and (max-width: 500px) {
             width: 100%;
+            align-items: flex-start;
+            gap: 10px 20px;
         }
         .link{
             @include fo-min;
