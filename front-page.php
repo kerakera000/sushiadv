@@ -18,13 +18,7 @@ get_template_part('./template/head');
                             <div class="swiper-wrapper" id="swiper-wrapper-2b29d6f6bf245310b" aria-live="polite">
                                 <!-- Slides -->
                                 <div class="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" style="width: 855px; opacity: 1; transform: translate3d(0px, 0px, 0px);" role="group" aria-label="1 / 3">
-                                    <img src="https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/newimgs_2/D__02430.jpg">
-                                </div>
-                                <div class="swiper-slide swiper-slide-next" style="width: 855px; opacity: 0; transform: translate3d(-855px, 0px, 0px);" role="group" aria-label="2 / 3">
-                                    <img src="https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/newimgs/sushi_Grandmenu.jpg">
-                                </div>
-                                <div class="swiper-slide" role="group" aria-label="3 / 3" style="width: 855px; opacity: 0; transform: translate3d(-1710px, 0px, 0px);">
-                                    <img src="https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/newimgs/sushi_nigiri.png">
+                                    <img src="https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/newimgs/kv.jpg">
                                 </div>
                             </div>
                         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>

@@ -21,8 +21,8 @@ $header_inquiry_text_cn = get_option('header_inquiry_text_cn', '');
 
 <header class="header">
     <a href="/" class="header__img">
-        <img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/header/sushiadv_wide_black.png" alt="">
-        <img class="imgsp" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/header/sushiadv_black.png" alt="">
+        <img class="img" src="https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/newimgs/logo_yabuki.png" alt="">
+        <img class="imgsp" src="https://dev2.lavoro-inc.com/yabuki/wp-content/themes/sushiadv/assets/img/newimgs/logo_yabuki.png" alt="">
     </a>
 
     <div class="header__nav">

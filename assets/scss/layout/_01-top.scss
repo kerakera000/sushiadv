@@ -192,8 +192,9 @@
         font-size: 28px;
         margin-bottom: 40px;
         font-weight: 700;
-        @media screen and (max-width: 425px) {
+        @media screen and (max-width: 600px) {
             font-size: 24px;
+            margin-bottom: 20px;
         }
     }
     &__text{
@@ -204,8 +205,13 @@
         max-width: 800px;
         font-weight: 500;
         margin-bottom: 20px;
-        font-size: 16px;
+        font-size: 18px;
         text-align: center;
+        @media screen and (max-width: 600px) {
+            br{
+                display: none;
+            }
+        }
     }
     &__img{
         width: 100%;
@@ -430,7 +436,9 @@
 
 .top-menuimg{
     margin-bottom: 100px;
-
+    @media screen and (max-width: 600px) {
+        margin-bottom: 0px;
+    }
     .big-title{
         @include fo-min;
         font-weight: 700;
@@ -556,13 +564,11 @@
                 display: flex;
                 .content-price{
                     margin: 0 0 0 auto;
+                    min-width: 105px;
                 }
             }
-            
-            
         }
     }
-    
 }
 
 
@@ -728,7 +734,6 @@
         }
         .mdal-imgbox{
             @include gap(30px, 4);
-            aspect-ratio: 1/1;
             transition: 0.3s;
             @media screen and (max-width: 768px) {
                 @include gap(30px, 3);
@@ -804,6 +809,9 @@
 
 .concept{
     margin: 80px 0 160px;
+    @media screen and (max-width: 600px) {
+        margin: 80px 0 40px;
+    }
 }
 
 .img-modal {
